@@ -41,9 +41,16 @@ where z is the z-value for the desired confidence level (use 1.96 for 95% confid
 You should store the accuracy score of each model under each combination of sampling technique and classifier in a dictionary, and print the results at the end.
 
 # Requirements
-To complete this assignment, you should have a working knowledge of numpy, pandas, sklearn, and imblearn. You should also be familiar with basic machine learning concepts, such as classification and evaluation metrics.
+To complete this assignment, you should have a working knowledge of numpy, pandas, sklearn, and imblearn. You should also be familiar with basic machine learning concepts, such as classification and evaluation metrics.  
 
-# Submission
-To submit your assignment, you should create a Jupyter notebook that contains your code and results. You should also include a brief write-up of your approach and your results, highlighting any interesting or unexpected findings.
+# Results
+|                                  |           |           |           |           |           |
+|----------------------------------|-----------|-----------|-----------|-----------|-----------|
+| Results:                         | Sampling1 | Sampling2 | Sampling3 | Sampling4 | Sampling5 |
+| M1 (Logistic Regression)         | 0.4323    | 0.9935    | 0.9935    | 0.9935    | 0.3742    |
+| M2 (Decision Tree)               | 0.7097    | 0.9806    | 0.9806    | 0.9806    | 0.5484    |
+| M3 (Random Forest)               | 0.6903    | 0.9935    | 0.9935    | 0.9935    | 0.7677    |
+| M4 (Extra Tree)                  | 0.6065    | 0.9935    | 0.9935    | 0.9935    | 0.6516    |
+| M5 (Stochastic Gradient Descent) | 0.0065    | 0.9935    | 0.9935    | 0.9935    | 0.2839    |  
 
 # Good luck!
